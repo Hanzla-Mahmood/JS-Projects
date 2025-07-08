@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+input{
+
+    background-color: wheat;
+}
+input:hover{
+  background: gray;
+}
+label{
+color: darkred;
+}
+label:hover{
+    color: grey;
+}
+#sub{
+    background-color: slateblue;
+}
+#rst{
+    background-color: seagreen;
+}
+h1{
+    background-color: slategrey;
+}
+#sub:hover{
+    background: white;
+}
+#rst:hover{
+    background: white;
+}
+h1:hover{
+    color: darkblue;
+}
