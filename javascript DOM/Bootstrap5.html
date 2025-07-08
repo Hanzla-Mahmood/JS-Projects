@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <title>Bootstrap Display Classes Example</title>
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="d-block d-sm-none">
+        <p class="bg-info text-white p-3">Visible on extra-small screens only</p>
+    </div>
+    <div class="d-none d-sm-block d-md-none">
+        <p class="bg-success text-white p-3">Visible on small screens only</p>
+    </div>
+    <div class="d-none d-md-block d-lg-none">
+        <p class="bg-warning text-white p-3">Visible on medium screens only</p>
+    </div>
+    <div class="d-none d-lg-block d-xl-none">
+        <p class="bg-danger text-white p-3">Visible on large screens only</p>
+    </div>
+    <div class="d-none d-xl-block">
+        <p class="bg-primary text-white p-3">Visible on extra-large screens</p>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
